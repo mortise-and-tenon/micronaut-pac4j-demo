@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: demo
+  security:
+    reject-not-found: false
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+mortnon:
+  pac4j:
+    global: false
